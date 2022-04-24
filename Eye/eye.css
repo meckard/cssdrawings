@@ -1,0 +1,83 @@
+.eye-background{
+    height: 250px;
+    width: 500px;
+    border-radius: 250px / 125px;
+    background-color: rgb(216, 176, 176);
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.eyelids {
+    transition: all 2s;
+}
+
+.top-eyelid{
+    box-shadow: 0px -80px 0 0 rgb(216 176 176);
+    height: 125px;
+    width: 500px;
+    border-radius: 50%;
+    position: absolute;
+    /* border-bottom: 2px solid rgb(229, 132, 132); */
+    top: 32%;
+    left: 20%;
+    z-index: 6;
+    transition: all 2s;
+}
+
+.eyelids:hover > .top-eyelid{
+    border-radius: 50% 50% 0 0;
+    top: 30%;
+    background-color: rgb(216 176 176);
+    box-shadow: none;
+}
+
+.bottom-eyelid{
+    height: 125px;
+    width: 500px;
+    border-radius: 50%;
+    position: absolute;
+    top: 43%;
+    left: 20%;
+    z-index: 9;
+    box-shadow: 0px 80px 0 0 rgb(216 176 176);
+    transition: all 2s;
+}
+
+.eyelids:hover > .bottom-eyelid {
+    border-radius: 0 0  50% 50%;
+    top: 46%;
+    background-color: rgb(216 176 176);
+    box-shadow: none;
+}
+
+.eye-white{
+    height: 200px;
+    width: 450px;
+    border-radius: 225px / 100px;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.iris{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 27%;
+    box-shadow: 13px 1px 10px navy;
+}
+
+.pupil{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: black;
+    position: absolute;
+    box-shadow: 10px 1px 10px navy;
+    top: 25%;
+    left: 25%;
+}
